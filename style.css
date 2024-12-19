@@ -4,10 +4,6 @@
 }
 
 
-
-
-
-
 @media screen and (max-width: 800px) {
   body {
     background: #f3f3f4;
@@ -20,7 +16,7 @@
 
 
   #search {
-    flex-direction: column; /* Cambia a columna */
+    flex-direction: column; 
     border-radius: 3px;
     margin-bottom: 20px;
 
@@ -33,10 +29,10 @@ padding:5px;
   }
 
   #title {
-    margin-right: 0; /* Cambia esto para centrar el título */
-    margin-bottom: 10px; /* Espaciado entre el título y el input */
+    margin-right: 0; 
+    margin-bottom: 10px; 
     display: flex;
-    justify-content: center; /* Centra el título horizontalmente */
+    justify-content: center; 
   }
 
 
@@ -116,7 +112,7 @@ display:none;
     align-items: center; 
     width: 150px; 
     text-align: center; 
-    cursor: pointer; /* Cambia el cursor al pasar sobre el div */
+    cursor: pointer; 
     
     background: rgba(169, 169, 169, 0.15);
     margin: 10px;
@@ -168,18 +164,18 @@ body.dark-mode {
   width: 30px;
   height: 30px;
   cursor: pointer;
-  position: absolute; /* o puedes usar float: right; */
-  right: 10px; /* ajusta según lo necesites */
-  top: 10px; /* ajusta según lo necesites */
+  position: absolute; 
+  right: 10px; 
+  top: 10px;
 }
 
 #toggle-button2 {
   width: 30px;
   height: 30px;
   cursor: pointer;
-  position: absolute; /* o puedes usar float: right; */
-  right: 25px; /* ajusta según lo necesites */
-  top: 5px; /* ajusta según lo necesites */
+  position: absolute;
+  right: 25px; 
+  top: 5px;
 }
 
 header h2 {
