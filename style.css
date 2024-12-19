@@ -1,0 +1,273 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+  body {
+    background: #f3f3f4;
+    color: black;
+    font-family: Calibri;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+
+
+  #search {
+    flex-direction: column; /* Cambia a columna */
+    border-radius: 3px;
+    margin-bottom: 20px;
+
+padding:5px;
+    width: 100%;
+    display: flex;
+    border-radius: 3px;
+
+    margin-bottom: 20px;
+  }
+
+  #title {
+    margin-right: 0; /* Cambia esto para centrar el título */
+    margin-bottom: 10px; /* Espaciado entre el título y el input */
+    display: flex;
+    justify-content: center; /* Centra el título horizontalmente */
+  }
+
+
+
+  #inp {
+    width: 100%;
+    height: 45px;
+    outline: none;
+    font-size: 19px;
+    text-align:center;
+  }
+
+  #container {
+    margin-top: 20px;
+    padding-bottom: 70px;
+  }
+  #title {
+  
+    margin-right: 3px; 
+    display: flex;
+    align-items: center;
+  }
+  .bk {
+    margin-left:10px;
+    width: 150px; 
+    cursor: pointer;
+    background: rgba(169, 169, 169, 0.15);
+      text-align: center;
+      padding: 5px;
+      border-radius: 5px;
+      display: flex;
+      justify-content: center;
+    }
+
+    #search-btn {
+display:none;
+    }
+
+    #mostrar {
+      display: flex; 
+      flex-wrap: wrap;
+      gap: 5px; 
+      }
+
+
+}
+
+
+@media screen and (min-width: 801px) {
+  #search {
+    background: transparent;
+    padding: 5px;
+    width: 98%;
+    display: flex;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+
+  #container {
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-bottom: 40px;
+  
+  }
+
+  #title {
+    margin-left:40px;
+    margin-right: 10px; 
+    display: flex;
+    align-items: center;
+  }
+
+  .bk {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    width: 150px; 
+    text-align: center; 
+    cursor: pointer; /* Cambia el cursor al pasar sobre el div */
+    
+    background: rgba(169, 169, 169, 0.15);
+    margin: 10px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    }
+    
+    #search-btn {
+      background-color: #6e2222;
+      color: white;
+      font-family: Arial;
+      border-radius: 2px;
+      width: 10%;
+      border: none;
+      margin-left: 10px;
+      cursor:pointer;
+    }
+
+
+    #mostrar {
+      display: flex; 
+      flex-wrap: wrap;
+      gap: 20px; 
+      }
+      #inp {
+        width: 50%;
+        height: 30px;
+        outline: none;
+        padding: 5px;
+        padding-left: 10px;
+        font-size: 19px;
+      }
+      
+}
+
+
+body.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+
+
+
+
+
+#toggle-button {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  position: absolute; /* o puedes usar float: right; */
+  right: 10px; /* ajusta según lo necesites */
+  top: 10px; /* ajusta según lo necesites */
+}
+
+#toggle-button2 {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  position: absolute; /* o puedes usar float: right; */
+  right: 25px; /* ajusta según lo necesites */
+  top: 5px; /* ajusta según lo necesites */
+}
+
+header h2 {
+  font-family: calibri;
+}
+
+#pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  
+}
+
+#pagination button{
+  
+ padding:10px;
+ cursor:pointer;
+ border-radius:0px;
+ margin-left:5px;
+}
+
+
+
+#container label {
+  margin-left: 20px;
+  font-size: 19px;
+}
+
+h2{
+font-family: Verdana;
+}
+
+
+
+#inp:hover {
+  border: 2px solid black;;
+}
+
+
+
+#search-btn:hover{
+border: 2px solid red;
+}
+
+#books {
+  display: flex;
+  flex-wrap: wrap; 
+  margin-top: 20px;
+  justify-content: center;
+}
+
+
+
+#search label {
+  margin-right: 10px;
+}
+
+
+
+.bk:hover{
+  border: 1px solid black;
+  cursor:pointer;
+  background: rgba(135, 135, 135, 0.18);
+}
+
+
+
+#books img {
+  width: 150px;
+  height: 200px;
+}
+
+#books a {
+  text-decoration: none;
+  color: black;
+  display: block; 
+  margin-top: 10px;
+}
+
+#return{
+  text-align:center;
+  margin-top:20px;
+}
+
+#return a{
+  text-decoration:none;
+  color:#000;
+  font-size:23px;
+  font-weight:bold;
+  font-family: Arial;
+}
